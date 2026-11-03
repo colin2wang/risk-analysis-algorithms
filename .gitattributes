@@ -1,0 +1,12 @@
+# Repository-wide: normalize all text files to LF so diffs and cross-platform
+# collaboration stay stable; working tree uses LF everywhere.
+* text=auto eol=lf
+
+# Binary assets: git must never touch their content (none currently in the
+# repo; declared for safety when images/fonts are added later).
+*.png binary
+*.jpg binary
+*.gif binary
+*.ico binary
+*.woff binary
+*.woff2 binary
